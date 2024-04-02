@@ -1,0 +1,64 @@
+{
+  "format": 1,
+  "restore": {
+    "G:\\RubiksRaceGame\\RubiksRaceGame\\RubiksRaceRandomizer\\RubiksRaceRandomizer.csproj": {}
+  },
+  "projects": {
+    "G:\\RubiksRaceGame\\RubiksRaceGame\\RubiksRaceRandomizer\\RubiksRaceRandomizer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\RubiksRaceGame\\RubiksRaceGame\\RubiksRaceRandomizer\\RubiksRaceRandomizer.csproj",
+        "projectName": "RubiksRaceRandomizer",
+        "projectPath": "G:\\RubiksRaceGame\\RubiksRaceGame\\RubiksRaceRandomizer\\RubiksRaceRandomizer.csproj",
+        "packagesPath": "C:\\Users\\mateu\\.nuget\\packages\\",
+        "outputPath": "G:\\RubiksRaceGame\\RubiksRaceGame\\RubiksRaceRandomizer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mateu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
