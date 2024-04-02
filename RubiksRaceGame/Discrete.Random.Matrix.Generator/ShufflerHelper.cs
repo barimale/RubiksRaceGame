@@ -31,7 +31,7 @@ namespace Discrete.Random.Matrix.Generator
         public static void ShuffleWithNeighberhood(ref int[] array, int rowsAmount, int columnsAmount, bool isStrict = false)
         {
             //  when close to the limit or the last iteration just look for it across the matrix
-            var retryLimit = 10;
+            var retryLimit = 1;
 
             int n = array.Length;
             for (int i = 0; i < (n - 1); i++)

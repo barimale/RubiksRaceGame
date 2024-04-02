@@ -14,21 +14,6 @@ namespace RubiksRaceGame
             button2.AllowDrop = true;
         }
 
-        private void button1_DragEnter(object sender, DragEventArgs e)
-        {
-            button1.BackColor = Color.AliceBlue;
-        }
-
-        private void button1_DragLeave(object sender, EventArgs e)
-        {
-            button1.BackColor = Color.Green;
-        }
-
-        private void button1_DragOver(object sender, DragEventArgs e)
-        {
-            button1.BackColor = Color.Red;
-        }
-
         private void button1_DragDrop(object sender, DragEventArgs e)
         {
             button1.BackColor = (sender as Button).BackColor;
@@ -37,11 +22,6 @@ namespace RubiksRaceGame
         private void button2_Click(object sender, EventArgs e)
         {
 
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-            label1.AllowDrop = true;
         }
 
         private void button1_MouseDown(object sender, MouseEventArgs e)
@@ -74,17 +54,14 @@ namespace RubiksRaceGame
 
         private void button37_Click(object sender, EventArgs e)
         {
-            new Randomizer().Execute();
-        }
+            var result = new Randomizer().Execute();
 
-        private void button1_Click(object sender, EventArgs e)
-        {
+            foreach(var item in result)
+            {
+                Button btn = (Button)this.Controls["button" + (26+item.Index).ToString()];
+                btn.BackColor = Randomizer.ColorMapper[item.ColorCode];
 
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
+            }
         }
     }
 }

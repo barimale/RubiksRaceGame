@@ -1,11 +1,31 @@
 ﻿using Discrete.Random.Matrix.Generator.Adapter;
-using Discrete.Random.Matrix.Generator.Utilities;
 
 namespace RubiksRaceGame.Services
 {
     internal class Randomizer
     {
-        public async Task Execute()
+        public static Dictionary<int, Color> ColorMapper = new Dictionary<int, Color>{
+                {0, Color.Red},
+                {1, Color.Blue},
+                {2, Color.Green},
+                {3, Color.Yellow},
+                {4, Color.Orange},
+                {5, Color.Purple}
+            };
+
+        public class ColorWithIndex
+        {
+            public int Index { get; set; }
+            public int ColorCode { get; set; }
+        }
+
+        // WIP
+        public List<ColorWithIndex> ExecuteForBoard()
+        {
+            return null;
+        }
+
+        public List<ColorWithIndex> Execute()
         {
             //given
             var rowsAmount = 3;
@@ -25,39 +45,31 @@ namespace RubiksRaceGame.Services
             var rest = 1D;
             for (int i = 0; i < masses.Length; i++)
             {
-                if (i == 1 || i == 2)
-                    continue;
                 masses[i] = (double)(rest / (double)amountOfColors);
             }
 
             var provider = ServiceProvider.GetProvider();
             var allAdaptees = provider.GetRegisterAdaptersName();
 
-            foreach (var adapteeName in allAdaptees)
+            var adapteeName = allAdaptees.First();
+            //when WIP
+            var fromCategorical = provider.ExecuteCategoricalByNameAsync(adapteeName, lower, upper, rowsAmount, columnsAmount, masses, isStrict).Result;
+
+            int index = 0;
+            var result = new List<ColorWithIndex>();
+
+            foreach(var item in fromCategorical.Item4)
             {
-                //when
-                var fromCategorical = await provider.ExecuteCategoricalByNameAsync(adapteeName, lower, upper, rowsAmount, columnsAmount, masses, isStrict);
-                var fromUniform = await provider.ExecuteUniformByNameAsync(adapteeName, lower, upper, rowsAmount, columnsAmount, isStrict);
+                result.Add(new ColorWithIndex()
+                {
+                    Index = index,
+                    ColorCode = item
+                });
 
-                //then
-                // Categorical
-                var array = fromCategorical.Item4.ToMatrixString(rowsAmount, columnsAmount);
-                var points = fromCategorical.Item4.ToSpecialWithColor(rowsAmount, columnsAmount);
-                var name = fromCategorical.Item3;
-                var mean = fromCategorical.Item1;
-                var median = fromCategorical.Item2;
-
-                // RESULTS ABOVE
-
-                // Uniform
-                var array2 = fromUniform.Item4.ToMatrixString(rowsAmount, columnsAmount);
-                var points2 = fromUniform.Item4.ToSpecialWithColor(rowsAmount, columnsAmount);
-                var name2 = fromUniform.Item3;
-                var mean2 = fromUniform.Item1;
-                var median2 = fromUniform.Item2;
-
-               // RESULTS ABOVE
+                index = index + 1;
             }
+
+            return result;
         }
     }
 }
