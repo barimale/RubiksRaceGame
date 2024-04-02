@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "HaeLSGCQc5A2reUXvgidJTrox2MKR2j2pFcCbjElya/JrBKkt3btlX1wDRkznIUKPH1L4TTOFqgoy+7NmYR/Dw==",
+  "success": true,
+  "projectFilePath": "G:\\RubiksRaceGame2\\RubiksRaceGame\\Discrete.Random.Matrix.Generator\\Discrete.Random.Matrix.Generator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mateu\\.nuget\\packages\\accord\\3.8.0\\accord.3.8.0.nupkg.sha512",
+    "C:\\Users\\mateu\\.nuget\\packages\\accord.math\\3.8.0\\accord.math.3.8.0.nupkg.sha512",
+    "C:\\Users\\mateu\\.nuget\\packages\\accord.statistics\\3.8.0\\accord.statistics.3.8.0.nupkg.sha512",
+    "C:\\Users\\mateu\\.nuget\\packages\\mathnet.numerics\\5.0.0\\mathnet.numerics.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

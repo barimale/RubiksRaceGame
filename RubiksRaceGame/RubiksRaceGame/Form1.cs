@@ -1,3 +1,5 @@
+using RubiksRaceGame.Services;
+
 namespace RubiksRaceGame
 {
     public partial class Form1 : Form
@@ -72,10 +74,15 @@ namespace RubiksRaceGame
 
         private void button37_Click(object sender, EventArgs e)
         {
-
+            new Randomizer().Execute();
         }
 
         private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
         {
 
         }

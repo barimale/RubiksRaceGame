@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "EUGVUwJO8JSP39KH/63rQC+MO/wnNAQJcr/cQFOG/2ykqICWoOpRFY/MPrDoB41r4b7DQFz1oJdWcthfYMA+Ig==",
+  "dgSpecHash": "JcnxTN7at1DvD6yOE0MEsS7Bs7JQsh1tEHBr/JtkiM82hLbzOPntBv01dUbCBfDEydKgNlNlWxeuONVG5jRFAw==",
   "success": true,
-  "projectFilePath": "G:\\RubiksRaceGame\\RubiksRaceGame\\RubiksRaceGame\\RubiksRaceGame.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "G:\\RubiksRaceGame2\\RubiksRaceGame\\RubiksRaceGame\\RubiksRaceGame.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mateu\\.nuget\\packages\\accord\\3.8.0\\accord.3.8.0.nupkg.sha512",
+    "C:\\Users\\mateu\\.nuget\\packages\\accord.math\\3.8.0\\accord.math.3.8.0.nupkg.sha512",
+    "C:\\Users\\mateu\\.nuget\\packages\\accord.statistics\\3.8.0\\accord.statistics.3.8.0.nupkg.sha512",
+    "C:\\Users\\mateu\\.nuget\\packages\\mathnet.numerics\\5.0.0\\mathnet.numerics.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
