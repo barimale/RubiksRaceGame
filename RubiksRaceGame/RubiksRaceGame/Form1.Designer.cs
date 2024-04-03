@@ -92,12 +92,13 @@
             // 
             // button37
             // 
+            button37.BackColor = SystemColors.Desktop;
             button37.Location = new Point(514, 12);
             button37.Name = "button37";
             button37.Size = new Size(227, 46);
             button37.TabIndex = 38;
             button37.Text = "START";
-            button37.UseVisualStyleBackColor = true;
+            button37.UseVisualStyleBackColor = false;
             button37.Click += button37_Click;
             // 
             // button3
@@ -400,6 +401,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.AppWorkspace;
             ClientSize = new Size(753, 545);
             Controls.Add(button34);
             Controls.Add(button33);
