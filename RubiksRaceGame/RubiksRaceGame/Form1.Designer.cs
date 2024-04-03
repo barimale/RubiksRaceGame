@@ -63,6 +63,7 @@
             button32 = new Button();
             button33 = new Button();
             button34 = new Button();
+            panel1 = new Panel();
             SuspendLayout();
             // 
             // button1
@@ -74,6 +75,7 @@
             button1.Text = "button1";
             button1.UseVisualStyleBackColor = true;
             button1.DragDrop += button1_DragDrop;
+            button1.DragEnter += button1_DragEnter;
             button1.MouseDown += button1_MouseDown;
             // 
             // button2
@@ -84,9 +86,9 @@
             button2.TabIndex = 1;
             button2.Text = "button2";
             button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click;
             button2.DragDrop += button2_DragDrop;
             button2.DragEnter += button2_DragEnter;
+            button2.MouseDown += button2_MouseDown;
             // 
             // button37
             // 
@@ -386,6 +388,14 @@
             button34.Text = "button34";
             button34.UseVisualStyleBackColor = true;
             // 
+            // panel1
+            // 
+            panel1.BackColor = SystemColors.ActiveCaptionText;
+            panel1.Location = new Point(104, 153);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(312, 298);
+            panel1.TabIndex = 71;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -426,6 +436,7 @@
             Controls.Add(button37);
             Controls.Add(button2);
             Controls.Add(button1);
+            Controls.Add(panel1);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
@@ -468,5 +479,6 @@
         private Button button32;
         private Button button33;
         private Button button34;
+        private Panel panel1;
     }
 }

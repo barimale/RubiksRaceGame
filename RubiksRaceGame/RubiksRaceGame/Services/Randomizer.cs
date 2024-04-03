@@ -22,7 +22,49 @@ namespace RubiksRaceGame.Services
         // WIP
         public List<ColorWithIndex> ExecuteForBoard()
         {
-            return null;
+            //given
+            var rowsAmount = 5;
+            var columnsAmount = 5;
+            var lower = 0;
+            var upper = 5;
+            var isStrict = true;
+            var amountOfColors = upper - lower + 1;
+            double[] masses = new double[amountOfColors];
+
+            for (int i = 0; i < masses.Length; i++)
+            {
+                masses[i] = (double)(1D / (double)amountOfColors);
+            }
+
+            // Match Masters
+            var rest = 1D;
+            for (int i = 0; i < masses.Length; i++)
+            {
+                masses[i] = (double)(rest / (double)amountOfColors);
+            }
+
+            var provider = ServiceProvider.GetProvider();
+            var allAdaptees = provider.GetRegisterAdaptersName();
+
+            var adapteeName = allAdaptees.First();
+            //when WIP
+            var fromCategorical = provider.ExecuteCategoricalByNameAsync(adapteeName, lower, upper, rowsAmount, columnsAmount, masses, isStrict).Result;
+
+            int index = 0;
+            var result = new List<ColorWithIndex>();
+
+            foreach (var item in fromCategorical.Item4)
+            {
+                result.Add(new ColorWithIndex()
+                {
+                    Index = index,
+                    ColorCode = item
+                });
+
+                index = index + 1;
+            }
+
+            return result;
         }
 
         public List<ColorWithIndex> Execute()
