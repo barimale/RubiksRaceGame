@@ -232,11 +232,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\RubiksRaceGame2\\RubiksRaceGame\\Discrete.Random.Matrix.Generator\\Discrete.Random.Matrix.Generator.csproj",
+      "projectUniqueName": "G:\\RubiksRaceGame\\RubiksRaceGame\\Discrete.Random.Matrix.Generator\\Discrete.Random.Matrix.Generator.csproj",
       "projectName": "Discrete.Random.Matrix.Generator",
-      "projectPath": "G:\\RubiksRaceGame2\\RubiksRaceGame\\Discrete.Random.Matrix.Generator\\Discrete.Random.Matrix.Generator.csproj",
+      "projectPath": "G:\\RubiksRaceGame\\RubiksRaceGame\\Discrete.Random.Matrix.Generator\\Discrete.Random.Matrix.Generator.csproj",
       "packagesPath": "C:\\Users\\mateu\\.nuget\\packages\\",
-      "outputPath": "G:\\RubiksRaceGame2\\RubiksRaceGame\\Discrete.Random.Matrix.Generator\\obj\\",
+      "outputPath": "G:\\RubiksRaceGame\\RubiksRaceGame\\Discrete.Random.Matrix.Generator\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mateu\\AppData\\Roaming\\NuGet\\NuGet.Config",

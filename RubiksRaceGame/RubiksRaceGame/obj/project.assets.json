@@ -250,11 +250,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\RubiksRaceGame2\\RubiksRaceGame\\RubiksRaceGame\\RubiksRaceGame.csproj",
+      "projectUniqueName": "G:\\RubiksRaceGame\\RubiksRaceGame\\RubiksRaceGame\\RubiksRaceGame.csproj",
       "projectName": "RubiksRaceGame",
-      "projectPath": "G:\\RubiksRaceGame2\\RubiksRaceGame\\RubiksRaceGame\\RubiksRaceGame.csproj",
+      "projectPath": "G:\\RubiksRaceGame\\RubiksRaceGame\\RubiksRaceGame\\RubiksRaceGame.csproj",
       "packagesPath": "C:\\Users\\mateu\\.nuget\\packages\\",
-      "outputPath": "G:\\RubiksRaceGame2\\RubiksRaceGame\\RubiksRaceGame\\obj\\",
+      "outputPath": "G:\\RubiksRaceGame\\RubiksRaceGame\\RubiksRaceGame\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mateu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -267,8 +267,8 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "G:\\RubiksRaceGame2\\RubiksRaceGame\\Discrete.Random.Matrix.Generator\\Discrete.Random.Matrix.Generator.csproj": {
-              "projectPath": "G:\\RubiksRaceGame2\\RubiksRaceGame\\Discrete.Random.Matrix.Generator\\Discrete.Random.Matrix.Generator.csproj"
+            "G:\\RubiksRaceGame\\RubiksRaceGame\\Discrete.Random.Matrix.Generator\\Discrete.Random.Matrix.Generator.csproj": {
+              "projectPath": "G:\\RubiksRaceGame\\RubiksRaceGame\\Discrete.Random.Matrix.Generator\\Discrete.Random.Matrix.Generator.csproj"
             }
           }
         }

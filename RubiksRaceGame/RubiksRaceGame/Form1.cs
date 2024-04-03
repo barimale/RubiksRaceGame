@@ -51,10 +51,10 @@ namespace RubiksRaceGame
             dragDrop("button1", sender, e);
         }
 
-
+        // WIP pass button1 here 
         private void button1_DragEnter(object sender, DragEventArgs e)
         {
-            dragEnter(sender, e);
+            dragEnter("button1", sender, e);
         }
 
         private void button1_MouseDown(object sender, MouseEventArgs e)
@@ -69,7 +69,7 @@ namespace RubiksRaceGame
 
         private void button2_DragEnter(object sender, DragEventArgs e)
         {
-            dragEnter(sender, e);
+            dragEnter("button2", sender, e);
         }
 
         private void button2_MouseDown(object sender, MouseEventArgs e)
@@ -85,7 +85,7 @@ namespace RubiksRaceGame
 
         private void button3_DragEnter(object sender, DragEventArgs e)
         {
-            dragEnter(sender, e);
+            dragEnter("button3", sender, e);
         }
 
         private void button3_MouseDown(object sender, MouseEventArgs e)
@@ -101,7 +101,7 @@ namespace RubiksRaceGame
 
         private void button4_DragEnter(object sender, DragEventArgs e)
         {
-            dragEnter(sender, e);
+            dragEnter("button4", sender, e);
         }
 
         private void button4_MouseDown(object sender, MouseEventArgs e)
@@ -117,7 +117,7 @@ namespace RubiksRaceGame
 
         private void button5_DragEnter(object sender, DragEventArgs e)
         {
-            dragEnter(sender, e);
+            dragEnter("button5", sender, e);
         }
 
         private void button5_MouseDown(object sender, MouseEventArgs e)
@@ -130,7 +130,7 @@ namespace RubiksRaceGame
         }
         private void button6_DragEnter(object sender, DragEventArgs e)
         {
-            dragEnter(sender, e);
+            dragEnter("button6", sender, e);
         }
 
         private void button6_MouseDown(object sender, MouseEventArgs e)
@@ -146,7 +146,7 @@ namespace RubiksRaceGame
 
         private void button7_DragEnter(object sender, DragEventArgs e)
         {
-            dragEnter(sender, e);
+            dragEnter("button7", sender, e);
         }
 
         private void button7_MouseDown(object sender, MouseEventArgs e)
@@ -161,7 +161,7 @@ namespace RubiksRaceGame
 
         private void button8_DragEnter(object sender, DragEventArgs e)
         {
-            dragEnter(sender, e);
+            dragEnter("button8", sender, e);
         }
 
         private void button8_MouseDown(object sender, MouseEventArgs e)
@@ -176,7 +176,7 @@ namespace RubiksRaceGame
 
         private void button9_DragEnter(object sender, DragEventArgs e)
         {
-            dragEnter(sender, e);
+            dragEnter("button9", sender, e);
         }
 
         private void button9_MouseDown(object sender, MouseEventArgs e)
@@ -191,7 +191,7 @@ namespace RubiksRaceGame
 
         private void button10_DragEnter(object sender, DragEventArgs e)
         {
-            dragEnter(sender, e);
+            dragEnter("button10", sender, e);
         }
 
         private void button10_MouseDown(object sender, MouseEventArgs e)
@@ -206,7 +206,7 @@ namespace RubiksRaceGame
 
         private void button11_DragEnter(object sender, DragEventArgs e)
         {
-            dragEnter(sender, e);
+            dragEnter("button11", sender, e);
         }
 
         private void button11_MouseDown(object sender, MouseEventArgs e)
@@ -221,7 +221,7 @@ namespace RubiksRaceGame
 
         private void button12_DragEnter(object sender, DragEventArgs e)
         {
-            dragEnter(sender, e);
+            dragEnter("button12", sender, e);
         }
 
         private void button12_MouseDown(object sender, MouseEventArgs e)
@@ -236,7 +236,7 @@ namespace RubiksRaceGame
 
         private void button13_DragEnter(object sender, DragEventArgs e)
         {
-            dragEnter(sender, e);
+            dragEnter("button13", sender, e);
         }
 
         private void button13_MouseDown(object sender, MouseEventArgs e)
@@ -251,7 +251,7 @@ namespace RubiksRaceGame
 
         private void button14_DragEnter(object sender, DragEventArgs e)
         {
-            dragEnter(sender, e);
+            dragEnter("button14", sender, e);
         }
 
         private void button14_MouseDown(object sender, MouseEventArgs e)
@@ -266,7 +266,7 @@ namespace RubiksRaceGame
 
         private void button15_DragEnter(object sender, DragEventArgs e)
         {
-            dragEnter(sender, e);
+            dragEnter("button15", sender, e);
         }
 
         private void button15_MouseDown(object sender, MouseEventArgs e)
@@ -281,7 +281,7 @@ namespace RubiksRaceGame
 
         private void button16_DragEnter(object sender, DragEventArgs e)
         {
-            dragEnter(sender, e);
+            dragEnter("button16", sender, e);
         }
 
         private void button16_MouseDown(object sender, MouseEventArgs e)
@@ -297,7 +297,7 @@ namespace RubiksRaceGame
 
         private void button17_DragEnter(object sender, DragEventArgs e)
         {
-            dragEnter(sender, e);
+            dragEnter("button17", sender, e);
         }
 
         private void button17_MouseDown(object sender, MouseEventArgs e)
@@ -312,7 +312,7 @@ namespace RubiksRaceGame
 
         private void button18_DragEnter(object sender, DragEventArgs e)
         {
-            dragEnter(sender, e);
+            dragEnter("button18", sender, e);
         }
 
         private void button18_MouseDown(object sender, MouseEventArgs e)
@@ -328,7 +328,7 @@ namespace RubiksRaceGame
 
         private void button19_DragEnter(object sender, DragEventArgs e)
         {
-            dragEnter(sender, e);
+            dragEnter("button19", sender, e);
         }
 
         private void button19_MouseDown(object sender, MouseEventArgs e)
@@ -344,7 +344,7 @@ namespace RubiksRaceGame
 
         private void button20_DragEnter(object sender, DragEventArgs e)
         {
-            dragEnter(sender, e);
+            dragEnter("button20", sender, e);
         }
 
         private void button20_MouseDown(object sender, MouseEventArgs e)
@@ -359,7 +359,7 @@ namespace RubiksRaceGame
 
         private void button21_DragEnter(object sender, DragEventArgs e)
         {
-            dragEnter(sender, e);
+            dragEnter("button21", sender, e);
         }
 
         private void button21_MouseDown(object sender, MouseEventArgs e)
@@ -374,7 +374,7 @@ namespace RubiksRaceGame
 
         private void button22_DragEnter(object sender, DragEventArgs e)
         {
-            dragEnter(sender, e);
+            dragEnter("button22", sender, e);
         }
 
         private void button22_MouseDown(object sender, MouseEventArgs e)
@@ -389,7 +389,7 @@ namespace RubiksRaceGame
 
         private void button23_DragEnter(object sender, DragEventArgs e)
         {
-            dragEnter(sender, e);
+            dragEnter("button23", sender, e);
         }
 
         private void button23_MouseDown(object sender, MouseEventArgs e)
@@ -404,7 +404,7 @@ namespace RubiksRaceGame
 
         private void button24_DragEnter(object sender, DragEventArgs e)
         {
-            dragEnter(sender, e);
+            dragEnter("button24", sender, e);
         }
 
         private void button24_MouseDown(object sender, MouseEventArgs e)
@@ -419,7 +419,7 @@ namespace RubiksRaceGame
 
         private void button25_DragEnter(object sender, DragEventArgs e)
         {
-            dragEnter(sender, e);
+            dragEnter("button25", sender, e);
         }
 
         private void button25_MouseDown(object sender, MouseEventArgs e)
@@ -482,12 +482,25 @@ namespace RubiksRaceGame
                 DragDropEffects.Move);
         }
 
-        private void dragEnter(object sender, DragEventArgs e)
+        private void dragEnter(string buttonName,  object sender, DragEventArgs e)
         {
-            if (e.Data.GetDataPresent(DataFormats.Text))
-                e.Effect = DragDropEffects.Copy;
+            var extractedButtonNumber = int.Parse(buttonName.Substring(6, buttonName.Length - 6));
+
+            var a = e.Data.GetData(DataFormats.Text).ToString();
+            var extractedButtonNumber2 = int.Parse(a.Substring(6, a.Length - 6));
+
+            if (extractedButtonNumber == extractedButtonNumber2 -1 ||
+                extractedButtonNumber == extractedButtonNumber2 + 1 ||
+                extractedButtonNumber == extractedButtonNumber2 - 5 ||
+                extractedButtonNumber == extractedButtonNumber2 + 5)
+            {
+                if (e.Data.GetDataPresent(DataFormats.Text))
+                    e.Effect = DragDropEffects.Copy;
+            }
             else
+            {
                 e.Effect = DragDropEffects.None;
+            }
         }
 
         private void Form1_Load(object sender, EventArgs e)

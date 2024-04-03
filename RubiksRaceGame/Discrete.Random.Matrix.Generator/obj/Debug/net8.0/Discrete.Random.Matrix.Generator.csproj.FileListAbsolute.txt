@@ -12,3 +12,17 @@ G:\RubiksRaceGame2\RubiksRaceGame\Discrete.Random.Matrix.Generator\obj\Debug\net
 G:\RubiksRaceGame2\RubiksRaceGame\Discrete.Random.Matrix.Generator\obj\Debug\net8.0\refint\Discrete.Random.Matrix.Generator.dll
 G:\RubiksRaceGame2\RubiksRaceGame\Discrete.Random.Matrix.Generator\obj\Debug\net8.0\Discrete.Random.Matrix.Generator.pdb
 G:\RubiksRaceGame2\RubiksRaceGame\Discrete.Random.Matrix.Generator\obj\Debug\net8.0\ref\Discrete.Random.Matrix.Generator.dll
+G:\RubiksRaceGame\RubiksRaceGame\Discrete.Random.Matrix.Generator\bin\Debug\net8.0\Accord.dll.config
+G:\RubiksRaceGame\RubiksRaceGame\Discrete.Random.Matrix.Generator\bin\Debug\net8.0\Discrete.Random.Matrix.Generator.deps.json
+G:\RubiksRaceGame\RubiksRaceGame\Discrete.Random.Matrix.Generator\bin\Debug\net8.0\Discrete.Random.Matrix.Generator.dll
+G:\RubiksRaceGame\RubiksRaceGame\Discrete.Random.Matrix.Generator\bin\Debug\net8.0\Discrete.Random.Matrix.Generator.pdb
+G:\RubiksRaceGame\RubiksRaceGame\Discrete.Random.Matrix.Generator\obj\Debug\net8.0\Discrete.Random.Matrix.Generator.csproj.AssemblyReference.cache
+G:\RubiksRaceGame\RubiksRaceGame\Discrete.Random.Matrix.Generator\obj\Debug\net8.0\Discrete.Random.Matrix.Generator.GeneratedMSBuildEditorConfig.editorconfig
+G:\RubiksRaceGame\RubiksRaceGame\Discrete.Random.Matrix.Generator\obj\Debug\net8.0\Discrete.Random.Matrix.Generator.AssemblyInfoInputs.cache
+G:\RubiksRaceGame\RubiksRaceGame\Discrete.Random.Matrix.Generator\obj\Debug\net8.0\Discrete.Random.Matrix.Generator.AssemblyInfo.cs
+G:\RubiksRaceGame\RubiksRaceGame\Discrete.Random.Matrix.Generator\obj\Debug\net8.0\Discrete.Random.Matrix.Generator.csproj.CoreCompileInputs.cache
+G:\RubiksRaceGame\RubiksRaceGame\Discrete.Random.Matrix.Generator\obj\Debug\net8.0\Discrete.Random.Matrix.Generator.sourcelink.json
+G:\RubiksRaceGame\RubiksRaceGame\Discrete.Random.Matrix.Generator\obj\Debug\net8.0\Discrete.Random.Matrix.Generator.dll
+G:\RubiksRaceGame\RubiksRaceGame\Discrete.Random.Matrix.Generator\obj\Debug\net8.0\refint\Discrete.Random.Matrix.Generator.dll
+G:\RubiksRaceGame\RubiksRaceGame\Discrete.Random.Matrix.Generator\obj\Debug\net8.0\Discrete.Random.Matrix.Generator.pdb
+G:\RubiksRaceGame\RubiksRaceGame\Discrete.Random.Matrix.Generator\obj\Debug\net8.0\ref\Discrete.Random.Matrix.Generator.dll
