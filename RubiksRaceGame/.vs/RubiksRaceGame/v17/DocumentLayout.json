@@ -3,6 +3,9 @@
   "WorkspaceRootPath": "G:\\RubiksRaceGame\\RubiksRaceGame\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{464BAF9F-39B5-4CC8-BE18-F29EEEE31D92}|Solution Items{464BAF9F-39B5-4CC8-BE18-F29EEEE31D92}|G:\\RubiksRaceGame\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A5C0E8A0-4E90-4A0E-B2FC-CEFCDDE6E780}|RubiksRaceGame\\RubiksRaceGame.csproj|G:\\RubiksRaceGame\\RubiksRaceGame\\rubiksracegame\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A5C0E8A0-4E90-4A0E-B2FC-CEFCDDE6E780}|RubiksRaceGame\\RubiksRaceGame.csproj|solutionrelative:rubiksracegame\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -34,11 +37,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "README.md",
+              "DocumentMoniker": "G:\\RubiksRaceGame\\README.md",
+              "RelativeDocumentMoniker": "..\\README.md",
+              "ToolTip": "G:\\RubiksRaceGame\\README.md",
+              "RelativeToolTip": "..\\README.md",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2024-04-03T17:19:21.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "RubiksRaceGame.csproj",
               "DocumentMoniker": "G:\\RubiksRaceGame\\RubiksRaceGame\\RubiksRaceGame\\RubiksRaceGame.csproj",
               "RelativeDocumentMoniker": "RubiksRaceGame\\RubiksRaceGame.csproj",
@@ -51,7 +67,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "BoardRandomizer.cs",
               "DocumentMoniker": "G:\\RubiksRaceGame\\RubiksRaceGame\\RubiksRaceGame\\Services\\BoardRandomizer.cs",
               "RelativeDocumentMoniker": "RubiksRaceGame\\Services\\BoardRandomizer.cs",
@@ -63,7 +79,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "G:\\RubiksRaceGame\\RubiksRaceGame\\RubiksRaceGame\\Form1.cs",
               "RelativeDocumentMoniker": "RubiksRaceGame\\Form1.cs",
@@ -75,20 +91,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "G:\\RubiksRaceGame\\RubiksRaceGame\\RubiksRaceGame\\Form1.cs",
               "RelativeDocumentMoniker": "RubiksRaceGame\\Form1.cs",
               "ToolTip": "G:\\RubiksRaceGame\\RubiksRaceGame\\RubiksRaceGame\\Form1.cs",
               "RelativeToolTip": "RubiksRaceGame\\Form1.cs",
-              "ViewState": "AQIAAMIBAAAAAAAAAAAkwOIBAAArAAAA",
+              "ViewState": "AQIAAMoBAAAAAAAAAAAiwN4BAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-02T14:14:53.293Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "G:\\RubiksRaceGame\\RubiksRaceGame\\RubiksRaceGame\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "RubiksRaceGame\\Form1.Designer.cs",
@@ -101,7 +117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Randomizer.cs",
               "DocumentMoniker": "G:\\RubiksRaceGame\\RubiksRaceGame\\RubiksRaceGame\\Services\\Randomizer.cs",
               "RelativeDocumentMoniker": "RubiksRaceGame\\Services\\Randomizer.cs",
