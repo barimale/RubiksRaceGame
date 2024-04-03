@@ -2,13 +2,13 @@ using RubiksRaceGame.Services;
 
 namespace RubiksRaceGame
 {
+    // WIP
+    // add timer? 
     public partial class Form1 : Form
     {
         public Form1()
         {
             InitializeComponent();
-            button1.BackColor = Color.Black;
-            button2.BackColor = Color.Blue;
 
             button1.ForeColor = Color.Transparent;
             button2.ForeColor = Color.Transparent;
@@ -46,8 +46,8 @@ namespace RubiksRaceGame
             button33.Text = string.Empty;
             button34.Text = string.Empty;
 
+            // WIP execute board with additional color -> Transparent
             button1.AllowDrop = true;
-            button2.AllowDrop = true;
         }
 
         private void button1_DragDrop(object sender, DragEventArgs e)
@@ -436,9 +436,9 @@ namespace RubiksRaceGame
             // WIP
             var result = new Randomizer().Execute();
 
-            foreach(var item in result)
+            foreach (var item in result)
             {
-                Button btn = (Button)this.Controls["button" + (26+item.Index).ToString()];
+                Button btn = (Button)this.Controls["button" + (26 + item.Index).ToString()];
                 btn.BackColor = Randomizer.ColorMapper[item.ColorCode];
 
             }
@@ -469,6 +469,9 @@ namespace RubiksRaceGame
             btn2.BackColor = Color.Transparent;
             btn2.ForeColor = Color.Transparent;
             btn2.AllowDrop = true;
+
+            // WIP
+            // check correctnes of the solution
         }
 
         private void mouseDown(string buttonName, object sender, MouseEventArgs e)
@@ -488,6 +491,11 @@ namespace RubiksRaceGame
                 e.Effect = DragDropEffects.Copy;
             else
                 e.Effect = DragDropEffects.None;
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            this.Text = " Rubik's Race Game";
         }
     }
 }
