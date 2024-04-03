@@ -52,66 +52,388 @@ namespace RubiksRaceGame
 
         private void button1_DragDrop(object sender, DragEventArgs e)
         {
-            var a = e.Data.GetData(DataFormats.Text).ToString();
-            Button btn = (Button)this.Controls[a];
-
-            button1.BackColor = btn.BackColor;
-            button1.ForeColor = btn.BackColor;
-            btn.BackColor = Color.Transparent;
-            btn.ForeColor = Color.Transparent;
-            btn.AllowDrop = true;
+            dragDrop("button1", sender, e);
         }
+
 
         private void button1_DragEnter(object sender, DragEventArgs e)
         {
-            if (e.Data.GetDataPresent(DataFormats.Text))
-                e.Effect = DragDropEffects.Copy;
-            else
-                e.Effect = DragDropEffects.None;
-
+            dragEnter(sender, e);
         }
 
         private void button1_MouseDown(object sender, MouseEventArgs e)
         {
-            if (button1.BackColor == Color.Transparent)
-                return;
-
-            button1.DoDragDrop(button1.Text, DragDropEffects.Copy |
-                DragDropEffects.Move);
+            mouseDown("button1", sender, e);
         }
+        private void button2_DragDrop(object sender, DragEventArgs e)
+        {
+            dragDrop("button2", sender, e);
+        }
+
 
         private void button2_DragEnter(object sender, DragEventArgs e)
         {
-            if (e.Data.GetDataPresent(DataFormats.Text))
-                e.Effect = DragDropEffects.Copy;
-            else
-                e.Effect = DragDropEffects.None;
-
-        }
-
-        private void button2_DragDrop(object sender, DragEventArgs e)
-        {
-            var a = e.Data.GetData(DataFormats.Text).ToString();
-            Button btn = (Button)this.Controls[a];
-
-            button2.BackColor = btn.BackColor;
-            button2.ForeColor = btn.BackColor;
-            btn.BackColor = Color.Transparent;
-            btn.ForeColor = Color.Transparent;
-            btn.AllowDrop = true;
+            dragEnter(sender, e);
         }
 
         private void button2_MouseDown(object sender, MouseEventArgs e)
         {
-            if (button2.BackColor == Color.Transparent)
-                return;
+            mouseDown("button2", sender, e);
+        }
 
-            button2.DoDragDrop(button2.Text, DragDropEffects.Copy |
-                DragDropEffects.Move);
+        private void button3_DragDrop(object sender, DragEventArgs e)
+        {
+            dragDrop("button3", sender, e);
+        }
+
+
+        private void button3_DragEnter(object sender, DragEventArgs e)
+        {
+            dragEnter(sender, e);
+        }
+
+        private void button3_MouseDown(object sender, MouseEventArgs e)
+        {
+            mouseDown("button3", sender, e);
+        }
+
+        private void button4_DragDrop(object sender, DragEventArgs e)
+        {
+            dragDrop("button4", sender, e);
+        }
+
+
+        private void button4_DragEnter(object sender, DragEventArgs e)
+        {
+            dragEnter(sender, e);
+        }
+
+        private void button4_MouseDown(object sender, MouseEventArgs e)
+        {
+            mouseDown("button4", sender, e);
+        }
+
+        private void button5_DragDrop(object sender, DragEventArgs e)
+        {
+            dragDrop("button5", sender, e);
+        }
+
+
+        private void button5_DragEnter(object sender, DragEventArgs e)
+        {
+            dragEnter(sender, e);
+        }
+
+        private void button5_MouseDown(object sender, MouseEventArgs e)
+        {
+            mouseDown("button5", sender, e);
+        }
+        private void button6_DragDrop(object sender, DragEventArgs e)
+        {
+            dragDrop("button6", sender, e);
+        }
+        private void button6_DragEnter(object sender, DragEventArgs e)
+        {
+            dragEnter(sender, e);
+        }
+
+        private void button6_MouseDown(object sender, MouseEventArgs e)
+        {
+            mouseDown("button6", sender, e);
+        }
+
+        private void button7_DragDrop(object sender, DragEventArgs e)
+        {
+            dragDrop("button7", sender, e);
+        }
+
+
+        private void button7_DragEnter(object sender, DragEventArgs e)
+        {
+            dragEnter(sender, e);
+        }
+
+        private void button7_MouseDown(object sender, MouseEventArgs e)
+        {
+            mouseDown("button7", sender, e);
+        }
+        private void button8_DragDrop(object sender, DragEventArgs e)
+        {
+            dragDrop("button8", sender, e);
+        }
+
+
+        private void button8_DragEnter(object sender, DragEventArgs e)
+        {
+            dragEnter(sender, e);
+        }
+
+        private void button8_MouseDown(object sender, MouseEventArgs e)
+        {
+            mouseDown("button8", sender, e);
+        }
+        private void button9_DragDrop(object sender, DragEventArgs e)
+        {
+            dragDrop("button9", sender, e);
+        }
+
+
+        private void button9_DragEnter(object sender, DragEventArgs e)
+        {
+            dragEnter(sender, e);
+        }
+
+        private void button9_MouseDown(object sender, MouseEventArgs e)
+        {
+            mouseDown("button9", sender, e);
+        }
+        private void button10_DragDrop(object sender, DragEventArgs e)
+        {
+            dragDrop("button10", sender, e);
+        }
+
+
+        private void button10_DragEnter(object sender, DragEventArgs e)
+        {
+            dragEnter(sender, e);
+        }
+
+        private void button10_MouseDown(object sender, MouseEventArgs e)
+        {
+            mouseDown("button10", sender, e);
+        }
+        private void button11_DragDrop(object sender, DragEventArgs e)
+        {
+            dragDrop("button11", sender, e);
+        }
+
+
+        private void button11_DragEnter(object sender, DragEventArgs e)
+        {
+            dragEnter(sender, e);
+        }
+
+        private void button11_MouseDown(object sender, MouseEventArgs e)
+        {
+            mouseDown("button11", sender, e);
+        }
+        private void button12_DragDrop(object sender, DragEventArgs e)
+        {
+            dragDrop("button12", sender, e);
+        }
+
+
+        private void button12_DragEnter(object sender, DragEventArgs e)
+        {
+            dragEnter(sender, e);
+        }
+
+        private void button12_MouseDown(object sender, MouseEventArgs e)
+        {
+            mouseDown("button12", sender, e);
+        }
+        private void button13_DragDrop(object sender, DragEventArgs e)
+        {
+            dragDrop("button13", sender, e);
+        }
+
+
+        private void button13_DragEnter(object sender, DragEventArgs e)
+        {
+            dragEnter(sender, e);
+        }
+
+        private void button13_MouseDown(object sender, MouseEventArgs e)
+        {
+            mouseDown("button13", sender, e);
+        }
+        private void button14_DragDrop(object sender, DragEventArgs e)
+        {
+            dragDrop("button14", sender, e);
+        }
+
+
+        private void button14_DragEnter(object sender, DragEventArgs e)
+        {
+            dragEnter(sender, e);
+        }
+
+        private void button14_MouseDown(object sender, MouseEventArgs e)
+        {
+            mouseDown("button14", sender, e);
+        }
+        private void button15_DragDrop(object sender, DragEventArgs e)
+        {
+            dragDrop("button15", sender, e);
+        }
+
+
+        private void button15_DragEnter(object sender, DragEventArgs e)
+        {
+            dragEnter(sender, e);
+        }
+
+        private void button15_MouseDown(object sender, MouseEventArgs e)
+        {
+            mouseDown("button15", sender, e);
+        }
+        private void button16_DragDrop(object sender, DragEventArgs e)
+        {
+            dragDrop("button16", sender, e);
+        }
+
+
+        private void button16_DragEnter(object sender, DragEventArgs e)
+        {
+            dragEnter(sender, e);
+        }
+
+        private void button16_MouseDown(object sender, MouseEventArgs e)
+        {
+            mouseDown("button16", sender, e);
+        }
+
+        private void button17_DragDrop(object sender, DragEventArgs e)
+        {
+            dragDrop("button17", sender, e);
+        }
+
+
+        private void button17_DragEnter(object sender, DragEventArgs e)
+        {
+            dragEnter(sender, e);
+        }
+
+        private void button17_MouseDown(object sender, MouseEventArgs e)
+        {
+            mouseDown("button17", sender, e);
+        }
+        private void button18_DragDrop(object sender, DragEventArgs e)
+        {
+            dragDrop("button18", sender, e);
+        }
+
+
+        private void button18_DragEnter(object sender, DragEventArgs e)
+        {
+            dragEnter(sender, e);
+        }
+
+        private void button18_MouseDown(object sender, MouseEventArgs e)
+        {
+            mouseDown("button18", sender, e);
+        }
+
+        private void button19_DragDrop(object sender, DragEventArgs e)
+        {
+            dragDrop("button19", sender, e);
+        }
+
+
+        private void button19_DragEnter(object sender, DragEventArgs e)
+        {
+            dragEnter(sender, e);
+        }
+
+        private void button19_MouseDown(object sender, MouseEventArgs e)
+        {
+            mouseDown("button19", sender, e);
+        }
+
+        private void button20_DragDrop(object sender, DragEventArgs e)
+        {
+            dragDrop("button20", sender, e);
+        }
+
+
+        private void button20_DragEnter(object sender, DragEventArgs e)
+        {
+            dragEnter(sender, e);
+        }
+
+        private void button20_MouseDown(object sender, MouseEventArgs e)
+        {
+            mouseDown("button20", sender, e);
+        }
+        private void button21_DragDrop(object sender, DragEventArgs e)
+        {
+            dragDrop("button21", sender, e);
+        }
+
+
+        private void button21_DragEnter(object sender, DragEventArgs e)
+        {
+            dragEnter(sender, e);
+        }
+
+        private void button21_MouseDown(object sender, MouseEventArgs e)
+        {
+            mouseDown("button21", sender, e);
+        }
+        private void button22_DragDrop(object sender, DragEventArgs e)
+        {
+            dragDrop("button22", sender, e);
+        }
+
+
+        private void button22_DragEnter(object sender, DragEventArgs e)
+        {
+            dragEnter(sender, e);
+        }
+
+        private void button22_MouseDown(object sender, MouseEventArgs e)
+        {
+            mouseDown("button22", sender, e);
+        }
+        private void button23_DragDrop(object sender, DragEventArgs e)
+        {
+            dragDrop("button23", sender, e);
+        }
+
+
+        private void button23_DragEnter(object sender, DragEventArgs e)
+        {
+            dragEnter(sender, e);
+        }
+
+        private void button23_MouseDown(object sender, MouseEventArgs e)
+        {
+            mouseDown("button23", sender, e);
+        }
+        private void button24_DragDrop(object sender, DragEventArgs e)
+        {
+            dragDrop("button24", sender, e);
+        }
+
+
+        private void button24_DragEnter(object sender, DragEventArgs e)
+        {
+            dragEnter(sender, e);
+        }
+
+        private void button24_MouseDown(object sender, MouseEventArgs e)
+        {
+            mouseDown("button24", sender, e);
+        }
+        private void button25_DragDrop(object sender, DragEventArgs e)
+        {
+            dragDrop("button25", sender, e);
+        }
+
+
+        private void button25_DragEnter(object sender, DragEventArgs e)
+        {
+            dragEnter(sender, e);
+        }
+
+        private void button25_MouseDown(object sender, MouseEventArgs e)
+        {
+            mouseDown("button25", sender, e);
         }
 
         private void button37_Click(object sender, EventArgs e)
         {
+            // WIP
             var result = new Randomizer().Execute();
 
             foreach(var item in result)
@@ -132,6 +454,40 @@ namespace RubiksRaceGame
 
             button1.AllowDrop = true;
             button1.BackColor = Color.Transparent;
+        }
+
+
+        private void dragDrop(string buttonName, object sender, DragEventArgs e)
+        {
+            Button btn1 = (Button)this.Controls[buttonName];
+
+            var a = e.Data.GetData(DataFormats.Text).ToString();
+            Button btn2 = (Button)this.Controls[a];
+
+            btn1.BackColor = btn2.BackColor;
+            btn1.ForeColor = btn2.BackColor;
+            btn2.BackColor = Color.Transparent;
+            btn2.ForeColor = Color.Transparent;
+            btn2.AllowDrop = true;
+        }
+
+        private void mouseDown(string buttonName, object sender, MouseEventArgs e)
+        {
+            Button btn1 = (Button)this.Controls[buttonName];
+
+            if (btn1.BackColor == Color.Transparent)
+                return;
+
+            btn1.DoDragDrop(btn1.Text, DragDropEffects.Copy |
+                DragDropEffects.Move);
+        }
+
+        private void dragEnter(object sender, DragEventArgs e)
+        {
+            if (e.Data.GetDataPresent(DataFormats.Text))
+                e.Effect = DragDropEffects.Copy;
+            else
+                e.Effect = DragDropEffects.None;
         }
     }
 }

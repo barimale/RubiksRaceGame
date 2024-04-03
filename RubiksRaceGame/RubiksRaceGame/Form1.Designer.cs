@@ -94,9 +94,9 @@
             // button37
             // 
             button37.BackColor = SystemColors.Desktop;
-            button37.Location = new Point(514, 12);
+            button37.Location = new Point(512, 12);
             button37.Name = "button37";
-            button37.Size = new Size(227, 46);
+            button37.Size = new Size(221, 46);
             button37.TabIndex = 38;
             button37.Text = "START";
             button37.UseVisualStyleBackColor = false;
@@ -110,6 +110,9 @@
             button3.TabIndex = 39;
             button3.Text = "button3";
             button3.UseVisualStyleBackColor = true;
+            button3.DragDrop += button3_DragDrop;
+            button3.DragEnter += button3_DragEnter;
+            button3.MouseDown += button3_MouseDown;
             // 
             // button4
             // 
@@ -119,6 +122,9 @@
             button4.TabIndex = 40;
             button4.Text = "button4";
             button4.UseVisualStyleBackColor = true;
+            button4.DragDrop += button4_DragDrop;
+            button4.DragEnter += button4_DragEnter;
+            button4.MouseDown += button4_MouseDown;
             // 
             // button5
             // 
@@ -128,6 +134,9 @@
             button5.TabIndex = 41;
             button5.Text = "button5";
             button5.UseVisualStyleBackColor = true;
+            button5.DragDrop += button5_DragDrop;
+            button5.DragEnter += button5_DragEnter;
+            button5.MouseDown += button5_MouseDown;
             // 
             // button6
             // 
@@ -137,6 +146,9 @@
             button6.TabIndex = 46;
             button6.Text = "button6";
             button6.UseVisualStyleBackColor = true;
+            button6.DragDrop += button6_DragDrop;
+            button6.DragEnter += button6_DragEnter;
+            button6.MouseDown += button6_MouseDown;
             // 
             // button7
             // 
@@ -146,6 +158,9 @@
             button7.TabIndex = 45;
             button7.Text = "button7";
             button7.UseVisualStyleBackColor = true;
+            button7.DragDrop += button7_DragDrop;
+            button7.DragEnter += button7_DragEnter;
+            button7.MouseDown += button7_MouseDown;
             // 
             // button8
             // 
@@ -155,6 +170,9 @@
             button8.TabIndex = 44;
             button8.Text = "button8";
             button8.UseVisualStyleBackColor = true;
+            button8.DragDrop += button8_DragDrop;
+            button8.DragEnter += button8_DragEnter;
+            button8.MouseDown += button8_MouseDown;
             // 
             // button9
             // 
@@ -164,6 +182,9 @@
             button9.TabIndex = 43;
             button9.Text = "button9";
             button9.UseVisualStyleBackColor = true;
+            button9.DragDrop += button9_DragDrop;
+            button9.DragEnter += button9_DragEnter;
+            button9.MouseDown += button9_MouseDown;
             // 
             // button10
             // 
@@ -173,6 +194,9 @@
             button10.TabIndex = 42;
             button10.Text = "button10";
             button10.UseVisualStyleBackColor = true;
+            button10.DragDrop += button10_DragDrop;
+            button10.DragEnter += button10_DragEnter;
+            button10.MouseDown += button10_MouseDown;
             // 
             // button11
             // 
@@ -182,6 +206,9 @@
             button11.TabIndex = 51;
             button11.Text = "button11";
             button11.UseVisualStyleBackColor = true;
+            button11.DragDrop += button11_DragDrop;
+            button11.DragEnter += button11_DragEnter;
+            button11.MouseDown += button11_MouseDown;
             // 
             // button12
             // 
@@ -191,6 +218,9 @@
             button12.TabIndex = 50;
             button12.Text = "button12";
             button12.UseVisualStyleBackColor = true;
+            button12.DragDrop += button12_DragDrop;
+            button12.DragEnter += button12_DragEnter;
+            button12.MouseDown += button12_MouseDown;
             // 
             // button13
             // 
@@ -200,6 +230,9 @@
             button13.TabIndex = 49;
             button13.Text = "button13";
             button13.UseVisualStyleBackColor = true;
+            button13.DragDrop += button13_DragDrop;
+            button13.DragEnter += button13_DragEnter;
+            button13.MouseDown += button13_MouseDown;
             // 
             // button14
             // 
@@ -209,6 +242,9 @@
             button14.TabIndex = 48;
             button14.Text = "button14";
             button14.UseVisualStyleBackColor = true;
+            button14.DragDrop += button14_DragDrop;
+            button14.DragEnter += button14_DragEnter;
+            button14.MouseDown += button14_MouseDown;
             // 
             // button15
             // 
@@ -218,6 +254,9 @@
             button15.TabIndex = 47;
             button15.Text = "button15";
             button15.UseVisualStyleBackColor = true;
+            button15.DragDrop += button15_DragDrop;
+            button15.DragEnter += button15_DragEnter;
+            button15.MouseDown += button15_MouseDown;
             // 
             // button16
             // 
@@ -227,6 +266,9 @@
             button16.TabIndex = 56;
             button16.Text = "button16";
             button16.UseVisualStyleBackColor = true;
+            button16.DragDrop += button16_DragDrop;
+            button16.DragEnter += button16_DragEnter;
+            button16.MouseDown += button16_MouseDown;
             // 
             // button17
             // 
@@ -236,6 +278,9 @@
             button17.TabIndex = 55;
             button17.Text = "button17";
             button17.UseVisualStyleBackColor = true;
+            button17.DragDrop += button17_DragDrop;
+            button17.DragEnter += button17_DragEnter;
+            button17.MouseDown += button17_MouseDown;
             // 
             // button18
             // 
@@ -245,6 +290,9 @@
             button18.TabIndex = 54;
             button18.Text = "button18";
             button18.UseVisualStyleBackColor = true;
+            button18.DragDrop += button18_DragDrop;
+            button18.DragEnter += button18_DragEnter;
+            button18.MouseDown += button18_MouseDown;
             // 
             // button19
             // 
@@ -254,6 +302,9 @@
             button19.TabIndex = 53;
             button19.Text = "button19";
             button19.UseVisualStyleBackColor = true;
+            button19.DragDrop += button19_DragDrop;
+            button19.DragEnter += button19_DragEnter;
+            button19.MouseDown += button19_MouseDown;
             // 
             // button20
             // 
@@ -263,6 +314,9 @@
             button20.TabIndex = 52;
             button20.Text = "button20";
             button20.UseVisualStyleBackColor = true;
+            button20.DragDrop += button20_DragDrop;
+            button20.DragEnter += button20_DragEnter;
+            button20.MouseDown += button20_MouseDown;
             // 
             // button21
             // 
@@ -272,6 +326,9 @@
             button21.TabIndex = 61;
             button21.Text = "button21";
             button21.UseVisualStyleBackColor = true;
+            button21.DragDrop += button21_DragDrop;
+            button21.DragEnter += button21_DragEnter;
+            button21.MouseDown += button21_MouseDown;
             // 
             // button22
             // 
@@ -281,6 +338,9 @@
             button22.TabIndex = 60;
             button22.Text = "button22";
             button22.UseVisualStyleBackColor = true;
+            button22.DragDrop += button22_DragDrop;
+            button22.DragEnter += button22_DragEnter;
+            button22.MouseDown += button22_MouseDown;
             // 
             // button23
             // 
@@ -290,6 +350,9 @@
             button23.TabIndex = 59;
             button23.Text = "button23";
             button23.UseVisualStyleBackColor = true;
+            button23.DragDrop += button23_DragDrop;
+            button23.DragEnter += button23_DragEnter;
+            button23.MouseDown += button23_MouseDown;
             // 
             // button24
             // 
@@ -299,6 +362,9 @@
             button24.TabIndex = 58;
             button24.Text = "button24";
             button24.UseVisualStyleBackColor = true;
+            button24.DragDrop += button24_DragDrop;
+            button24.DragEnter += button24_DragEnter;
+            button24.MouseDown += button24_MouseDown;
             // 
             // button25
             // 
@@ -308,6 +374,9 @@
             button25.TabIndex = 57;
             button25.Text = "button25";
             button25.UseVisualStyleBackColor = true;
+            button25.DragDrop += button25_DragDrop;
+            button25.DragEnter += button25_DragEnter;
+            button25.MouseDown += button25_MouseDown;
             // 
             // button26
             // 
