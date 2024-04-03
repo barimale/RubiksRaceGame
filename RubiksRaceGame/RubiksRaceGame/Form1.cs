@@ -2,8 +2,6 @@ using RubiksRaceGame.Services;
 
 namespace RubiksRaceGame
 {
-    // WIP
-    // add timer? 
     public partial class Form1 : Form
     {
         public Form1()
@@ -46,8 +44,6 @@ namespace RubiksRaceGame
             button33.Text = string.Empty;
             button34.Text = string.Empty;
 
-            // WIP execute board with additional color -> Transparent
-            button1.AllowDrop = true;
         }
 
         private void button1_DragDrop(object sender, DragEventArgs e)
@@ -433,7 +429,6 @@ namespace RubiksRaceGame
 
         private void button37_Click(object sender, EventArgs e)
         {
-            // WIP
             var result = new Randomizer().Execute();
 
             foreach (var item in result)
@@ -449,12 +444,13 @@ namespace RubiksRaceGame
             foreach (var item in result2)
             {
                 Button btn = (Button)this.Controls["button" + (1 + item.Index).ToString()];
-                btn.BackColor = Randomizer.ColorMapper[item.ColorCode];
+                btn.BackColor = BoardRandomizer.ColorMapper[item.ColorCode];
                 btn.ForeColor = btn.BackColor;
+                if(btn.BackColor == Color.Transparent)
+                {
+                    btn.AllowDrop = true;
+                }
             }
-
-            button1.AllowDrop = true;
-            button1.BackColor = Color.Transparent;
         }
 
 

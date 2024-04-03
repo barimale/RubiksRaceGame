@@ -28,28 +28,23 @@ namespace RubiksRaceGame.Services
             var rowsAmount = 5;
             var columnsAmount = 5;
             var lower = 0;
-            var upper = 5;
+            var upper = 6;
             var isStrict = true;
             var amountOfColors = upper - lower + 1;
             double[] masses = new double[amountOfColors];
 
-            for (int i = 0; i < masses.Length; i++)
+            for (int i = 0; i < masses.Length - 1; i++)
             {
-                masses[i] = (double)(1D / (double)amountOfColors);
+                masses[i] = (double)(4D / (double)25D);
             }
 
-            // Match Masters
-            var rest = 1D;
-            for (int i = 0; i < masses.Length; i++)
-            {
-                masses[i] = (double)(rest / (double)amountOfColors);
-            }
+            masses[6] = 1D / 25D;
 
             var provider = ServiceProvider.GetProvider();
             var allAdaptees = provider.GetRegisterAdaptersName();
 
             var adapteeName = allAdaptees.First();
-            //when WIP
+            
             var fromCategorical = provider.ExecuteCategoricalByNameAsync(adapteeName, lower, upper, rowsAmount, columnsAmount, masses, isStrict).Result;
 
             int index = 0;

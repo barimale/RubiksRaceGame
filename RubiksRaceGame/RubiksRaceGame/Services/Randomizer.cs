@@ -26,7 +26,7 @@ namespace RubiksRaceGame.Services
             var columnsAmount = 3;
             var lower = 0;
             var upper = 5;
-            var isStrict = true;
+            var isStrict = false;
             var amountOfColors = upper - lower + 1;
             double[] masses = new double[amountOfColors];
 
