@@ -480,7 +480,7 @@ namespace RubiksRaceGame
                 button34.BackColor == button19.BackColor
                 )
             {
-                MessageBox.Show("WYGRANA");
+                MessageBox.Show("Wygrana. Brawo!");
             }
         }
 
