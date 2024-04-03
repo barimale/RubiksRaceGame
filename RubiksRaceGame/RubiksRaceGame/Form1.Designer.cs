@@ -65,6 +65,8 @@
             button34 = new Button();
             panel1 = new Panel();
             panel2 = new Panel();
+            label1 = new Label();
+            label2 = new Label();
             SuspendLayout();
             // 
             // button1
@@ -380,7 +382,7 @@
             // 
             // button26
             // 
-            button26.Location = new Point(519, 66);
+            button26.Location = new Point(518, 66);
             button26.Name = "button26";
             button26.Size = new Size(69, 67);
             button26.TabIndex = 62;
@@ -434,7 +436,7 @@
             // 
             // button32
             // 
-            button32.Location = new Point(519, 212);
+            button32.Location = new Point(518, 212);
             button32.Name = "button32";
             button32.Size = new Size(69, 67);
             button32.TabIndex = 68;
@@ -475,12 +477,32 @@
             panel2.Size = new Size(219, 213);
             panel2.TabIndex = 72;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(12, 27);
+            label1.Name = "label1";
+            label1.Size = new Size(203, 20);
+            label1.TabIndex = 73;
+            label1.Text = "BOARD:";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(588, 288);
+            label2.Name = "label2";
+            label2.Size = new Size(79, 20);
+            label2.TabIndex = 74;
+            label2.Text = "SOLUTION";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.AppWorkspace;
             ClientSize = new Size(753, 545);
+            Controls.Add(label2);
+            Controls.Add(label1);
             Controls.Add(button34);
             Controls.Add(button33);
             Controls.Add(button32);
@@ -522,6 +544,7 @@
             Text = "Form1";
             Load += Form1_Load;
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -563,5 +586,7 @@
         private Button button34;
         private Panel panel1;
         private Panel panel2;
+        private Label label1;
+        private Label label2;
     }
 }

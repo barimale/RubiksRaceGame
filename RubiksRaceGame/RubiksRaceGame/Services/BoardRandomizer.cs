@@ -2,7 +2,7 @@
 
 namespace RubiksRaceGame.Services
 {
-    internal class Randomizer
+    internal class BoardRandomizer
     {
         public static Dictionary<int, Color> ColorMapper = new Dictionary<int, Color>{
                 {0, Color.Red},
@@ -10,7 +10,8 @@ namespace RubiksRaceGame.Services
                 {2, Color.Green},
                 {3, Color.Yellow},
                 {4, Color.Orange},
-                {5, Color.Purple}
+                {5, Color.Purple},
+                {6, Color.Transparent},
             };
 
         public class ColorWithIndex
@@ -19,11 +20,13 @@ namespace RubiksRaceGame.Services
             public int ColorCode { get; set; }
         }
 
+        // WIP             // WIP just one transparent, rest equal 4
+
         public List<ColorWithIndex> Execute()
         {
             //given
-            var rowsAmount = 3;
-            var columnsAmount = 3;
+            var rowsAmount = 5;
+            var columnsAmount = 5;
             var lower = 0;
             var upper = 5;
             var isStrict = true;
@@ -52,7 +55,7 @@ namespace RubiksRaceGame.Services
             int index = 0;
             var result = new List<ColorWithIndex>();
 
-            foreach(var item in fromCategorical.Item4)
+            foreach (var item in fromCategorical.Item4)
             {
                 result.Add(new ColorWithIndex()
                 {
@@ -65,5 +68,6 @@ namespace RubiksRaceGame.Services
 
             return result;
         }
+
     }
 }
