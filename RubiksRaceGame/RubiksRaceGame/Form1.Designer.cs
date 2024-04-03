@@ -64,6 +64,7 @@
             button33 = new Button();
             button34 = new Button();
             panel1 = new Panel();
+            panel2 = new Panel();
             SuspendLayout();
             // 
             // button1
@@ -310,7 +311,7 @@
             // 
             // button26
             // 
-            button26.Location = new Point(514, 64);
+            button26.Location = new Point(513, 64);
             button26.Name = "button26";
             button26.Size = new Size(69, 67);
             button26.TabIndex = 62;
@@ -364,7 +365,7 @@
             // 
             // button32
             // 
-            button32.Location = new Point(514, 210);
+            button32.Location = new Point(513, 210);
             button32.Name = "button32";
             button32.Size = new Size(69, 67);
             button32.TabIndex = 68;
@@ -392,10 +393,18 @@
             // panel1
             // 
             panel1.BackColor = SystemColors.ActiveCaptionText;
-            panel1.Location = new Point(104, 153);
+            panel1.Location = new Point(112, 160);
             panel1.Name = "panel1";
-            panel1.Size = new Size(312, 298);
+            panel1.Size = new Size(294, 282);
             panel1.TabIndex = 71;
+            // 
+            // panel2
+            // 
+            panel2.BackColor = SystemColors.ActiveCaptionText;
+            panel2.Location = new Point(512, 64);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(219, 213);
+            panel2.TabIndex = 72;
             // 
             // Form1
             // 
@@ -439,6 +448,7 @@
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(panel1);
+            Controls.Add(panel2);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
@@ -482,5 +492,6 @@
         private Button button33;
         private Button button34;
         private Panel panel1;
+        private Panel panel2;
     }
 }
