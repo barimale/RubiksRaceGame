@@ -489,10 +489,14 @@ namespace RubiksRaceGame
             var a = e.Data.GetData(DataFormats.Text).ToString();
             var extractedButtonNumber2 = int.Parse(a.Substring(6, a.Length - 6));
 
-            if (extractedButtonNumber == extractedButtonNumber2 -1 ||
+            Button btn1 = (Button)this.Controls[buttonName];
+
+            if ((extractedButtonNumber == extractedButtonNumber2 -1 ||
                 extractedButtonNumber == extractedButtonNumber2 + 1 ||
                 extractedButtonNumber == extractedButtonNumber2 - 5 ||
-                extractedButtonNumber == extractedButtonNumber2 + 5)
+                extractedButtonNumber == extractedButtonNumber2 + 5) 
+                && btn1.BackColor == Color.Transparent
+                )
             {
                 if (e.Data.GetDataPresent(DataFormats.Text))
                     e.Effect = DragDropEffects.Copy;

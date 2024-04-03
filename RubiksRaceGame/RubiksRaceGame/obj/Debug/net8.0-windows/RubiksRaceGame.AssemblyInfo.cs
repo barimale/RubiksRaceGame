@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RubiksRaceGame")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c0672a63eebe4bf269d1fe0a19c6a7620b6e3273")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+24ac2d60d2843824f22956d38edc7ce4742d2ebb")]
 [assembly: System.Reflection.AssemblyProductAttribute("RubiksRaceGame")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RubiksRaceGame")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
