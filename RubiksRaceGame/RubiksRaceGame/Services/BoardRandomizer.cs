@@ -1,4 +1,5 @@
 ﻿using Discrete.Random.Matrix.Generator.Adapter;
+using RubiksRaceGame.Model;
 
 namespace RubiksRaceGame.Services
 {
@@ -13,14 +14,6 @@ namespace RubiksRaceGame.Services
                 {5, Color.Purple},
                 {6, Color.Transparent},
             };
-
-        public class ColorWithIndex
-        {
-            public int Index { get; set; }
-            public int ColorCode { get; set; }
-        }
-
-        // WIP             // WIP just one transparent, rest equal 4
 
         public List<ColorWithIndex> Execute()
         {
@@ -38,6 +31,7 @@ namespace RubiksRaceGame.Services
                 masses[i] = (double)(4D / (double)25D);
             }
 
+            // transparent just one
             masses[6] = 1D / 25D;
 
             var provider = ServiceProvider.GetProvider();

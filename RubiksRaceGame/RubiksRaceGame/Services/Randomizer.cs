@@ -1,4 +1,5 @@
 ﻿using Discrete.Random.Matrix.Generator.Adapter;
+using RubiksRaceGame.Model;
 
 namespace RubiksRaceGame.Services
 {
@@ -12,12 +13,6 @@ namespace RubiksRaceGame.Services
                 {4, Color.Orange},
                 {5, Color.Purple}
             };
-
-        public class ColorWithIndex
-        {
-            public int Index { get; set; }
-            public int ColorCode { get; set; }
-        }
 
         public List<ColorWithIndex> Execute()
         {
@@ -35,7 +30,6 @@ namespace RubiksRaceGame.Services
                 masses[i] = (double)(1D / (double)amountOfColors);
             }
 
-            // Match Masters
             var rest = 1D;
             for (int i = 0; i < masses.Length; i++)
             {
@@ -46,7 +40,7 @@ namespace RubiksRaceGame.Services
             var allAdaptees = provider.GetRegisterAdaptersName();
 
             var adapteeName = allAdaptees.First();
-            //when WIP
+
             var fromCategorical = provider.ExecuteCategoricalByNameAsync(adapteeName, lower, upper, rowsAmount, columnsAmount, masses, isStrict).Result;
 
             int index = 0;
