@@ -469,6 +469,19 @@ namespace RubiksRaceGame
 
             // WIP
             // check correctnes of the solution
+            if(button26.BackColor == button7.BackColor &&
+                button27.BackColor == button8.BackColor &&
+                button28.BackColor == button9.BackColor &&
+                button29.BackColor == button12.BackColor &&
+                button30.BackColor == button13.BackColor &&
+                button31.BackColor == button14.BackColor &&
+                button32.BackColor == button17.BackColor &&
+                button33.BackColor == button18.BackColor &&
+                button34.BackColor == button19.BackColor
+                )
+            {
+                MessageBox.Show("WYGRANA");
+            }
         }
 
         private void mouseDown(string buttonName, object sender, MouseEventArgs e)
