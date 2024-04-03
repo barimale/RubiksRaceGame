@@ -466,8 +466,8 @@ namespace RubiksRaceGame
             btn2.BackColor = Color.Transparent;
             btn2.ForeColor = Color.Transparent;
             btn2.AllowDrop = true;
-
-            // WIP
+            btn1.AllowDrop = false;
+            
             // check correctnes of the solution
             if(button26.BackColor == button7.BackColor &&
                 button27.BackColor == button8.BackColor &&
