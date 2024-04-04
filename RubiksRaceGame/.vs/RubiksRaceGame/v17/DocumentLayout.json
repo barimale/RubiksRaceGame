@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "G:\\RubiksRaceGame\\RubiksRaceGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{464BAF9F-39B5-4CC8-BE18-F29EEEE31D92}|Solution Items{464BAF9F-39B5-4CC8-BE18-F29EEEE31D92}|G:\\RubiksRaceGame\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A5C0E8A0-4E90-4A0E-B2FC-CEFCDDE6E780}|RubiksRaceGame\\RubiksRaceGame.csproj|G:\\RubiksRaceGame\\RubiksRaceGame\\rubiksracegame\\services\\boardrandomizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A5C0E8A0-4E90-4A0E-B2FC-CEFCDDE6E780}|RubiksRaceGame\\RubiksRaceGame.csproj|solutionrelative:rubiksracegame\\services\\boardrandomizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{464BAF9F-39B5-4CC8-BE18-F29EEEE31D92}|Solution Items{464BAF9F-39B5-4CC8-BE18-F29EEEE31D92}|G:\\RubiksRaceGame\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A5C0E8A0-4E90-4A0E-B2FC-CEFCDDE6E780}|RubiksRaceGame\\RubiksRaceGame.csproj|G:\\RubiksRaceGame\\RubiksRaceGame\\rubiksracegame\\services\\randomizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,7 +22,7 @@
       "RelativeMoniker": "D:0:0:{A5C0E8A0-4E90-4A0E-B2FC-CEFCDDE6E780}|RubiksRaceGame\\RubiksRaceGame.csproj|solutionrelative:rubiksracegame\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A5C0E8A0-4E90-4A0E-B2FC-CEFCDDE6E780}|RubiksRaceGame\\RubiksRaceGame.csproj|g:\\rubiksracegame\\rubiksracegame\\rubiksracegame\\rubiksracegame.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{A5C0E8A0-4E90-4A0E-B2FC-CEFCDDE6E780}|RubiksRaceGame\\RubiksRaceGame.csproj|G:\\RubiksRaceGame\\RubiksRaceGame\\rubiksracegame\\rubiksracegame.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{A5C0E8A0-4E90-4A0E-B2FC-CEFCDDE6E780}|RubiksRaceGame\\RubiksRaceGame.csproj|solutionrelative:rubiksracegame\\rubiksracegame.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
@@ -37,11 +37,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "README.md",
               "DocumentMoniker": "G:\\RubiksRaceGame\\README.md",
               "RelativeDocumentMoniker": "..\\README.md",
@@ -54,13 +54,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "BoardRandomizer.cs",
               "DocumentMoniker": "G:\\RubiksRaceGame\\RubiksRaceGame\\RubiksRaceGame\\Services\\BoardRandomizer.cs",
               "RelativeDocumentMoniker": "RubiksRaceGame\\Services\\BoardRandomizer.cs",
               "ToolTip": "G:\\RubiksRaceGame\\RubiksRaceGame\\RubiksRaceGame\\Services\\BoardRandomizer.cs",
               "RelativeToolTip": "RubiksRaceGame\\Services\\BoardRandomizer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAiAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwCEAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-03T15:13:08.719Z",
               "EditorCaption": ""
@@ -75,8 +75,7 @@
               "RelativeToolTip": "RubiksRaceGame\\Services\\Randomizer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T14:35:35.821Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-02T14:35:35.821Z"
             },
             {
               "$type": "Document",
@@ -87,8 +86,7 @@
               "ToolTip": "G:\\RubiksRaceGame\\RubiksRaceGame\\RubiksRaceGame\\Form1.cs [Design]",
               "RelativeToolTip": "RubiksRaceGame\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T15:17:36.33Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-04-03T15:17:36.33Z"
             },
             {
               "$type": "Document",
@@ -100,8 +98,7 @@
               "RelativeToolTip": "RubiksRaceGame\\RubiksRaceGame.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-03T16:43:28.77Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-03T16:43:28.77Z"
             },
             {
               "$type": "Document",
@@ -113,8 +110,7 @@
               "RelativeToolTip": "RubiksRaceGame\\Form1.cs",
               "ViewState": "AQIAAMoBAAAAAAAAAAAiwN4BAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T14:14:53.293Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-02T14:14:53.293Z"
             },
             {
               "$type": "Document",
@@ -126,8 +122,7 @@
               "RelativeToolTip": "RubiksRaceGame\\Form1.Designer.cs",
               "ViewState": "AQIAACgCAAAAAAAAAAAAABYAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T16:22:46.481Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-02T16:22:46.481Z"
             }
           ]
         }
