@@ -438,7 +438,6 @@ namespace RubiksRaceGame
 
             }
 
-            // WIP just one transparent, rest equal 4
             var result2 = new BoardRandomizer().Execute();
 
             foreach (var item in result2)
