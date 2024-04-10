@@ -1,12 +1,36 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "G:\\RubiksRaceGame\\RubiksRaceGame\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{464BAF9F-39B5-4CC8-BE18-F29EEEE31D92}|Solution Items{464BAF9F-39B5-4CC8-BE18-F29EEEE31D92}|G:\\RubiksRaceGame\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "README.md",
+              "DocumentMoniker": "G:\\RubiksRaceGame\\README.md",
+              "RelativeDocumentMoniker": "..\\README.md",
+              "ToolTip": "G:\\RubiksRaceGame\\README.md",
+              "RelativeToolTip": "..\\README.md",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2024-04-05T12:37:33.346Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
