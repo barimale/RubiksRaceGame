@@ -468,7 +468,6 @@ namespace RubiksRaceGame
                     btnMiddle.BackColor = Color.Transparent;
                     btnMiddle.ForeColor = Color.Transparent;
                     btnMiddle.AllowDrop = true;
-                    btn.AllowDrop = false;
                 }
             }
         }
