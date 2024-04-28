@@ -1,3 +1,4 @@
+using RubiksRaceGame.Model;
 using RubiksRaceGame.Services;
 
 namespace RubiksRaceGame
@@ -445,13 +446,32 @@ namespace RubiksRaceGame
                 Button btn = (Button)this.Controls["button" + (1 + item.Index).ToString()];
                 btn.BackColor = BoardRandomizer.ColorMapper[item.ColorCode];
                 btn.ForeColor = btn.BackColor;
-                if(btn.BackColor == Color.Transparent)
+                if (btn.BackColor == Color.Transparent)
                 {
                     btn.AllowDrop = true;
                 }
             }
+
+            SwapToMiddle(result2);
         }
 
+        private void SwapToMiddle(List<ColorWithIndex> result2)
+        {
+            foreach (var item in result2)
+            {
+                Button btn = (Button)this.Controls["button" + (1 + item.Index).ToString()];
+                if (btn.BackColor == Color.Transparent)
+                {
+                    Button btnMiddle = (Button)this.Controls["button" + (13).ToString()];
+                    btn.BackColor = btnMiddle.BackColor;
+                    btn.ForeColor = btnMiddle.ForeColor;
+                    btnMiddle.BackColor = Color.Transparent;
+                    btnMiddle.ForeColor = Color.Transparent;
+                    btnMiddle.AllowDrop = true;
+                    btn.AllowDrop = false;
+                }
+            }
+        }
 
         private void dragDrop(string buttonName, object sender, DragEventArgs e)
         {
