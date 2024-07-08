@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{A5C0E8A0-4E90-4A0E-B2FC-CEFCDDE6E780}|RubiksRaceGame\\RubiksRaceGame.csproj|solutionrelative:rubiksracegame\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A5C0E8A0-4E90-4A0E-B2FC-CEFCDDE6E780}|RubiksRaceGame\\RubiksRaceGame.csproj|g:\\rubiksracegame\\rubiksracegame\\rubiksracegame\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{A5C0E8A0-4E90-4A0E-B2FC-CEFCDDE6E780}|RubiksRaceGame\\RubiksRaceGame.csproj|G:\\RubiksRaceGame\\RubiksRaceGame\\rubiksracegame\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A5C0E8A0-4E90-4A0E-B2FC-CEFCDDE6E780}|RubiksRaceGame\\RubiksRaceGame.csproj|solutionrelative:rubiksracegame\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -28,7 +28,7 @@
               "RelativeDocumentMoniker": "RubiksRaceGame\\Game.cs",
               "ToolTip": "G:\\RubiksRaceGame\\RubiksRaceGame\\RubiksRaceGame\\Game.cs",
               "RelativeToolTip": "RubiksRaceGame\\Game.cs",
-              "ViewState": "AQIAAL4BAAAAAAAAAAASwNYBAAAAAAAA",
+              "ViewState": "AQIAALAAAAAAAAAAAAAzwDYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-28T09:46:14.082Z",
               "EditorCaption": ""
@@ -42,8 +42,7 @@
               "ToolTip": "G:\\RubiksRaceGame\\RubiksRaceGame\\RubiksRaceGame\\Game.cs [Design]",
               "RelativeToolTip": "RubiksRaceGame\\Game.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T09:46:12.013Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-04-28T09:46:12.013Z"
             }
           ]
         }

@@ -52,7 +52,6 @@ namespace RubiksRaceGame
             dragDrop("button1", sender, e);
         }
 
-        // WIP pass button1 here 
         private void button1_DragEnter(object sender, DragEventArgs e)
         {
             dragEnter("button1", sender, e);
