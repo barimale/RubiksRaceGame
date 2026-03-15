@@ -188,7 +188,6 @@ namespace RubiksRaceGame
             dragDrop("button10", sender, e);
         }
 
-
         private void button10_DragEnter(object sender, DragEventArgs e)
         {
             dragEnter("button10", sender, e);
@@ -438,7 +437,32 @@ namespace RubiksRaceGame
 
             }
 
-            var result2 = new BoardRandomizer().Execute();
+            List<ColorWithIndex> result2 = new BoardRandomizer().Execute();
+            var retryFromHereAllowed = true;
+            while (retryFromHereAllowed)
+            {
+                result2 = new BoardRandomizer().Execute();
+
+                var grouped1 = result.GroupBy(p => p.ColorCode).ToDictionary(g => g.Key, g => g.Count());
+                var grouped2 = result2.GroupBy(p => p.ColorCode).ToDictionary(g => g.Key, g => g.Count());
+
+                bool isBoardOk = true;
+
+                foreach (var kvp in grouped1)
+                {
+                    var color = kvp.Key;
+                    var count1 = kvp.Value;
+
+                    if (!grouped2.TryGetValue(color, out var count2) || count2 < count1)
+                    {
+                        isBoardOk = false;
+                        break;
+                    }
+                }
+
+                if (isBoardOk)
+                    retryFromHereAllowed = false;
+            }
 
             foreach (var item in result2)
             {
