@@ -2,7 +2,7 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/RubiksRaceGame/.vs/RubiksRaceGame/FileContentIndex
+/RubiksRaceGame/.vs/**
 /RubiksRaceGame/Discrete.Random.Matrix.Generator/obj
 /RubiksRaceGame/Discrete.Random.Matrix.Generator/bin
 /RubiksRaceGame/RubiksRaceGame/bin

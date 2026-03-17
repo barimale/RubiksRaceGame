@@ -460,6 +460,11 @@ namespace RubiksRaceGame
                     }
                 }
 
+                if(result2.Where(p => p.ColorCode == 6).Count() != 1)
+                {
+                    isBoardOk = false;
+                }
+
                 if (isBoardOk)
                     retryFromHereAllowed = false;
             }
