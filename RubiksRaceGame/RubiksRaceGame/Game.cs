@@ -495,6 +495,8 @@ namespace RubiksRaceGame
                     btn.ForeColor = btnMiddle.ForeColor;
                     btnMiddle.BackColor = Color.Transparent;
                     btnMiddle.ForeColor = Color.Transparent;
+                    btnMiddle.FlatAppearance.MouseOverBackColor = btnMiddle.BackColor;
+                    btnMiddle.FlatAppearance.MouseDownBackColor = btnMiddle.BackColor;
                     btnMiddle.AllowDrop = true;
                 }
             }
@@ -509,8 +511,12 @@ namespace RubiksRaceGame
 
             btn1.BackColor = btn2.BackColor;
             btn1.ForeColor = btn2.BackColor;
+            btn1.FlatAppearance.MouseOverBackColor = btn2.BackColor;
+            btn1.FlatAppearance.MouseDownBackColor = btn2.BackColor;
             btn2.BackColor = Color.Transparent;
             btn2.ForeColor = Color.Transparent;
+            btn2.FlatAppearance.MouseOverBackColor = btn2.BackColor;
+            btn2.FlatAppearance.MouseDownBackColor = btn2.BackColor;
             btn2.AllowDrop = true;
             btn1.AllowDrop = false;
             
