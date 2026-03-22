@@ -465,6 +465,18 @@ namespace RubiksRaceGame
                     isBoardOk = false;
                 }
 
+                foreach (var kvp2 in grouped2)
+                {
+                    var color2 = kvp2.Key;
+                    var count3 = kvp2.Value;
+
+                    if (count3 != 4 && color2 != 6)
+                    {
+                        isBoardOk = false;
+                        break;
+                    }
+                }
+
                 if (isBoardOk)
                     retryFromHereAllowed = false;
             }
