@@ -430,6 +430,24 @@ namespace RubiksRaceGame
         {
             var result = new Randomizer().Execute();
 
+            var solutionRetryFromHere = true;
+            while (solutionRetryFromHere)
+            {
+                result = new Randomizer().Execute();
+                var grouped = result.GroupBy(p => p.ColorCode).ToDictionary(g => g.Key, g => g.Count());
+
+                foreach (var group in grouped)
+                {
+                    if (group.Value > 4)
+                    {
+                        solutionRetryFromHere = true;
+                        return;
+                    }
+                }
+
+                solutionRetryFromHere = false;
+            }
+
             foreach (var item in result)
             {
                 Button btn = (Button)this.Controls["button" + (26 + item.Index).ToString()];
