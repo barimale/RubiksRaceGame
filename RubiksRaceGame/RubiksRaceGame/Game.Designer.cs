@@ -96,6 +96,7 @@
             // button37
             // 
             button37.BackColor = SystemColors.Desktop;
+            button37.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             button37.Location = new Point(518, 14);
             button37.Name = "button37";
             button37.Size = new Size(221, 46);
@@ -495,7 +496,7 @@
             label2.TabIndex = 74;
             label2.Text = "SOLUTION";
             // 
-            // Form1
+            // Game
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -540,7 +541,7 @@
             Controls.Add(button1);
             Controls.Add(panel1);
             Controls.Add(panel2);
-            Name = "Form1";
+            Name = "Game";
             Text = "Form1";
             Load += Form1_Load;
             ResumeLayout(false);
